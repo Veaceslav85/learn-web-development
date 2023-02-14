@@ -1,0 +1,13 @@
+body{
+    background-color: antiquewhite;
+}
+h1,h2 {
+    color: brown;
+    text-align: center;
+}   
+hr {
+    border-style: none;
+    border-top-style:dotted ;
+    border-width: 6px;
+    width: 20%;
+}
