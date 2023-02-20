@@ -1,3 +1,4 @@
+
 #title {
     background-color: grey;
     padding-left: 12%;
@@ -13,7 +14,11 @@
     line-height: 1.5;
     font-weight: 900;
 }
-
+@media (max-width:900px) {
+#h1{
+    text-align: center;
+}
+}
 .container-fluid {
     padding-right: 30px;
     padding-bottom: 50px;
@@ -29,6 +34,15 @@
     z-index: 0;
 }
 
+@media (max-width:900px){
+    .title-image { 
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+        margin: 10px 70px;
+        }
+      
+    }
 /*Navbar*/
 #navbar-overwrite {
     padding-bottom: 2.5rem;
@@ -52,6 +66,9 @@
 
 .download-button {
     margin: 5% 3% 5% 0%;
+}
+.padding-button{
+    margin: 20px;
 }
 
 /*Features*/
@@ -118,4 +135,24 @@ h2 {
 }
 .pricing-column{
     padding: 3% 2%;
+}
+#cta {
+    background-color: grey;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    color: white;
+    text-align: center;
+}
+.call_action {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 3.5;
+}
+
+#footer {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 1%;
+    
 }
